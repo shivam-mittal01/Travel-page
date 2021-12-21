@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smotthing: antialised;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 212, 132),
+    rgb(255, 218, 218),
+    rgb(255, 205, 213),
+    rgb(255, 212, 132),
+    rgb(255, 205, 213)
+  );
+  font-family: "Roboto", sans-serif;
+}
+.main {
+  background: rgb(255, 255, 255, 0.3);
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fff;
+  max-width: 1100px;
+  padding: 30px 40px 0px;
+  margin: 100px auto 0px;
+}
+.header {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-header {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+.left-header h2 {
+  font-family: "Lobster", cursive;
+  margin-left: 12px;
+  background: linear-gradient(to right, black, rgb(163, 31, 31));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.center-header a {
+  font-size: 13px;
+}
+.center-header a span {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(253, 190, 73);
+  color: #fff;
+  padding: 4px 16px;
+  border-radius: 2px;
+  font-weight: 500;
+  padding-top: 12px;
+  border: none;
+  transform: translate(-70px, 20px);
+  clip-path: polygon(
+    0 100%,
+    100% 100%,
+    100% 30%,
+    60% 30%,
+    50% 0,
+    40% 30%,
+    0 30%
+  );
+}
+.right-header {
+  margin-left: 60px;
+}
+.head {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.login {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.sign-up {
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.heading {
+  margin-top: 40px;
+  font-size: 50px;
+}
+.body {
+  display: flex;
+}
+.main-body {
+  margin-top: 5px;
+  font-size: 50px;
+}
+.para {
+  margin-top: 20px;
+  color: rgb(177, 134, 134);
+}
+.paras {
+  margin-top: 5px;
+  color: rgb(177, 134, 134);
+}
+.plan,
+.play {
+  background-color: rgb(253, 187, 63);
+  color: white;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: none;
+  padding: 17px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  font-weight: bold;
+}
+.play {
+  background: none;
+  border: 1px solid rgb(253, 190, 73);
+  color: black;
+  margin-top: 30px;
+  padding: 8px 18px;
+  transform: translateY(7px);
+}
+.play span {
+  display: inline-block;
+  transform: translateY(-7px);
+}
+.play img {
+  margin-right: 10px;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: rgb(253, 190, 73);
+  border-width: 2px;
+  padding: 5px;
+  justify-content: center;
+}
+.plan img {
+  color: #fff;
+}
+.image {
+  width: 500px;
+  padding-left: 100px;
+}
+.footer {
+  background: rgb(255, 255, 255, 0.4);
+  height: 130px;
+  margin-top: 60px;
+  margin: auto 0;
+  margin-bottom: 200px;
+  display: flex;
+}
+.main-footer {
+  padding: 20px 10px;
+}
+.sub-footer {
+  padding: 35px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  color: grey;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 650;
+}
+.footer img {
+  margin-top: 10px;
+  margin-right: 10px;
+  position: absolute;
+  height: 35px;
+  width: 35px;
+}
+.footer h4 {
+  position: relative;
+
+  margin-left: 49px;
+}
+.sub-footer p {
+  margin-left: 49px;
+}
+.sub-footer .part-2 {
+  background: linear-gradient(
+    to right,
+    rgb(255, 165, 0, 0.7),
+    rgb(231, 230, 230, 0.7)
+  );
+}
+.part-1,
+.part-2,
+.part-3 {
+  transform: translateY(-15px);
+  height: 90px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+.part-3 img {
+  height: 30px;
+  width: 30px;
+}
+.word {
+  background: linear-gradient(to top, rgba(145, 134, 134, 0.7), black);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.words {
+  background: linear-gradient(to top, rgb(231, 73, 15), black);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
